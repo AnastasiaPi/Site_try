@@ -1,0 +1,36 @@
+@media (min-width: 748px){
+    body{
+        min-width: 1400px;
+    }
+    .slider__item_main{
+        width: 100%;
+    }
+}
+@media(max-width:1024){
+    .team__item{
+        width: 1024px;
+    }
+    .item__img img{
+        width: 300px;
+        height: 400px;
+    }
+}
+
+@media(max-width:700px){
+    .slider__item_main{
+        width: 100%;
+    }
+    body{
+        min-width: 1200px;
+    }
+    .team__item{
+        width: 350px;
+    }
+    .item__img img{
+        width: 350px;
+        height: 450px;
+    }
+    .team__items-block{
+        margin: 100px 0 0 0;
+    }
+}

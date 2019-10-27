@@ -1,0 +1,139 @@
+
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;	
+}
+
+.wrap{
+	flex: 1 0 auto;
+}
+
+footer{
+	flex: 0 0 auto;
+}
+body{
+	min-width: 1000px;
+}
+
+header{
+	min-height: 121px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.content{
+	max-width: 1542px;
+	margin: 0 auto;
+}
+.root__menu_top{
+	height: 77px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: rgba(178, 178, 178, 0.747);
+}
+
+.root__menu_top div:first-child{
+	margin-left: 84px;
+
+}
+.root__menu_top div:hover{
+	display: flex;
+	align-items: center;
+	height: 100%;
+	background-color: #626364;
+	
+}
+.root__menu_top div:first-child a{
+	color: black;
+}
+.slider__item_main{
+	display: flex;
+	flex-direction: column;
+	width: 1024px;
+	height: 700px;
+	background-image: url(../img/5427546353412402.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.slider__text{
+	text-align: center;
+	align-self: flex-end;
+	margin: 350px 80px 80px 0 ;
+}
+
+
+.root__team{
+	margin-top: 150px;
+	width: 100%;
+}
+.content_team{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.team__decoration_line{
+	margin-top: 30px;
+	background-color: #a95e39;
+	width: 500px;
+	height: 2px;
+}
+.team__description{
+	margin-top: 70px;
+	height: 104px;
+	width: 1137px;
+}
+.team__items-block{
+	margin: 130px 80px 0 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.team__item{
+	margin-right: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 900px;
+	width: 1540;
+
+}
+.item__img img{
+	height: 550px;
+	width: 400px;
+	margin-bottom: 80px;
+}
+.item__title{
+	margin-bottom: 80px;
+}
+.root__counter{
+	margin-top: 40px;
+	height: 400px;
+	width: 100%;
+	background-color: #1b2b32;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.content{
+	margin:0 80px 0 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-evenly;
+	
+}
+.counter__item{
+	margin: 0 60px 0 60px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.counter__digits{
+	margin-bottom: 40px;
+}
