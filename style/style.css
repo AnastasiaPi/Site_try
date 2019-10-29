@@ -273,7 +273,7 @@ header {
     flex-direction: row; }
 
   .root__menu_top div:first-child {
-    margin: 0 0; }
+    margin: 30px 0; }
 
   .root__menu_top div {
     margin: 30px 0; }
