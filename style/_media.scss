@@ -65,4 +65,10 @@
     .slider__text{
         margin: 0 80px 80px 20%;
     }
+    .root__menu_top div:hover{
+        display: flex;
+	    justify-content: center;
+        height: 70px;
+        width: 200px;
+    }
 }
