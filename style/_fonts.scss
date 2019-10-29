@@ -3,7 +3,7 @@ header a{
     margin-left: 63px;
 	font-family: var(--main_font);
 	font-size: 25px;
-	font-weight: 400;
+	font-weight: var(--reg_font_waigth);
 	text-transform: uppercase;
 	letter-spacing: 0.63px;
 	text-decoration: none;
@@ -31,13 +31,13 @@ header a{
 	font-family: var(--main_font);;
 	color:#FCFCFC;
 	font-size: 20px;
-	font-weight: 400;
+	font-weight:var(--reg_font_waigth) ;
 }
 .team__title{
-    color: #a95e39;
+    color: var(--color_font_orange);
     font-family: "Athelas";
     font-size: 61px;
-    font-weight: 400;
+    font-weight: var(--reg_font_waigth);
     text-transform: uppercase;
     letter-spacing: 1.8px;
 }
@@ -45,7 +45,7 @@ header a{
     text-align: center;
     font-family: Helvetica;
     font-size: 28px;
-    font-weight: 400;
+    font-weight: var(--reg_font_waigth);
     letter-spacing: 0.9px;
 }
 .item__title{
@@ -54,28 +54,28 @@ header a{
     font-size: 31px;
     letter-spacing: 0.9px;
     line-height: 25.46px;
-    font-weight: 400;
+    font-weight: var(--reg_font_waigth);
 }
 .item__desc{
     text-align: center;
     font-family: Helvetica;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: var(--reg_font_waigth);
     letter-spacing: 0.6px;
 }
 .counter__digits{
-    color: #995437;
-    font-family: "Vani";
+    color: var(--color_font_orange);
+    font-family: 'Vani';
     font-size: 77px;
     line-height: 38.37px;
-    font-weight: 700;
+    font-weight: bold;
     letter-spacing: 1.5px;
 }
 .counter__text{
     color: #ffffff;
-    font-family: "Myriad Pro";
+    font-family: var(--main_font);
     font-size: 26px;
-    font-weight: 400;
+    font-weight: var(--reg_font_waigth);
     letter-spacing: 1px;
     text-transform: uppercase;
 }
