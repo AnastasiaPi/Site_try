@@ -79,3 +79,110 @@ header a{
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+.form__title{
+color: #ffffff;
+font-family: Athelas;
+font-size: 66px;
+font-weight: 400;
+line-height: 131.13px;
+text-transform: uppercase;
+letter-spacing: 1.2px;
+}
+.form__title_text{
+color: #c0c0c0;
+font-family: "Quattrocento Sans";
+font-size: 28px;
+font-weight: 400;
+line-height: 41.41px;
+/* Text style for "Sed ut per" */
+letter-spacing: 0.5px;
+}
+.form input{
+    font-family: "QuattrocentoSans-Regular";
+    font-size: 16pt;
+}
+.form select{
+    font-size: 16pt;
+}
+.form textarea {
+    font-size: 16pt;}
+.reg__button{
+        font-family: "MyriadProRegular";
+        font-size: 16pt;
+    }
+
+.root__about .content{
+    max-width: 1900px;
+}
+.about__description{
+    font-family: "Quattrocento Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+.about__title{
+    font-family: Athelas;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 95px;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+}
+.about__item .item__desc{
+    font-family: "Myriad Pro";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+.galery__title{
+ 
+    color: #a95e39;
+    font-family: Athelas;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    /* Text style for "OUR GALLER" */
+    letter-spacing: 1.8px;
+}
+.galery__desc{
+    text-align: center;
+    font-family: Athelas;
+    font-size: 40px;
+    font-weight: var(--reg_font_waigth);
+    letter-spacing: 0.9px;
+}
+.menu__item li:first-child{
+    color: #d2d3d7;
+    font-family: "Myriad Pro";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 94.82px;
+    text-transform: uppercase;
+
+    letter-spacing: 0.6px;
+}
+.menu__item li a,.menu__item a{
+    text-decoration: none;
+    color: #d2d3d7;
+    font-family: "Myriad Pro";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40.82px;
+
+    letter-spacing: 0.6px;
+}
+.copyright__text{
+    color: #cdcbcb;
+font-family: "Myriad Pro";
+font-size: 24px;
+font-weight: 400;
+line-height: 95px;
+letter-spacing: 0.6px;
+text-transform: uppercase;
+
+letter-spacing: 0.6px;
+}

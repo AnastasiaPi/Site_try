@@ -6,7 +6,7 @@
         width: 100%;
     }
 }
-@media(max-width:1024){
+@media(max-width:1724){
     .team__item{
         width: 1024px;
     }
@@ -70,5 +70,36 @@
 	    justify-content: center;
         height: 70px;
         width: 200px;
+    }
+    .root__about .content {
+        max-width: 90%;
+        flex-direction: column;
+    }
+    .galery__desc {
+        width: 600px;
+    }    
+}
+@media(max-width:1880px){
+    .galery__desc {
+        width: 1200px;
+    }  
+    .root__about .content {
+        max-width: 90%;
+    }
+    .about__img {
+        width: 600px;
+        height: 500px;
+    }
+    .about__block {
+        margin-top: 0;
+        width: 700px;
+        height: 524px;
+    }
+    .about__item .item__img {
+        width: 100px;
+        height: 100px;
+    }
+    .about__item .item__desc {
+        font-size: 20px;
     }
 }
